@@ -1,0 +1,18 @@
+/* site.css */
+
+/* header is draggable... */
+.header {
+  -webkit-app-region: drag;
+}
+
+/* but any buttons inside the header shouldn't be draggable */
+.header a,
+.header .commandbar-item-button,
+{
+  -webkit-app-region: no-drag;
+}
+
+/*perhaps move some items out of way for the traffic light*/
+.header .suite-logo {
+  margin-left: 70px;
+}

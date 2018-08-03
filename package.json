@@ -1,0 +1,19 @@
+{
+  "name": "vsts-dektop-app",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "make": "nativefier https://read-center.visualstudio.com --internal-urls '.*?\\.visualstudio\\.*?' --inject style.css --title-bar-style 'hiddenInset' --single-instance --tray"
+  },
+  "dependencies": {
+    "nativefier": "^7.6.7"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Stanislav Yevchenko",
+  "license": "MIT"
+}
