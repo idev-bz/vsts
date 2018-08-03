@@ -1,2 +1,2 @@
 # vsts
-vets client
+vsts client for macos and windows 
