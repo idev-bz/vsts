@@ -4,7 +4,7 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "make": "nativefier https://read-center.visualstudio.com --internal-urls '.*?\\.visualstudio\\.*?' --inject style.css --title-bar-style 'hiddenInset' --single-instance --tray"
+    "make": "nativefier https://dev.azure.com/read-center --internal-urls '.*?\\.visualstudio\\.*?' --inject style.css --title-bar-style 'hiddenInset' --single-instance --tray --name 'VS' "
   },
   "dependencies": {
     "nativefier": "^7.6.7"
